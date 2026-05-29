@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f7f0;
+    color: #2d5a27;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #2d5a27;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container {
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.status-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.alerta { background-color: #ffcccc; color: #cc0000; }
+.sucesso { background-color: #ccffcc; color: #006600; }

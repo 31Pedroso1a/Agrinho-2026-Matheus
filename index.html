@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026: Agro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>Equilíbrio entre Produção e Meio Ambiente</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Simulador de Impacto</h2>
+            <label for="producao">Nível de Produção (Toneladas):</label>
+            <input type="range" id="producao" min="0" max="100" value="50">
+            <span id="val-producao">50</span>
+            
+            <label for="preservacao">Área de Preservação (%):</label>
+            <input type="range" id="preservacao" min="0" max="100" value="50">
+            <span id="val-preservacao">50%</span>
+
+            <div id="resultado" class="status-box">
+                Aguardando análise...
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
